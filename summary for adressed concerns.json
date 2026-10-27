@@ -1,0 +1,40 @@
+{
+  "structural": {
+    "tag": "structural",
+    "head": "stacked OOF (tabular + GNN score)",
+    "ap_val": 0.5745681302974137,
+    "ap_test": 0.566951538428146,
+    "precision": 0.5076618882847257,
+    "recall": 0.5715080690038954,
+    "f1": 0.5376963350780357,
+    "gnn_gain": {
+      "blend_minus_tab": 0.026375956688742486,
+      "gnn_alone_minus_tab": -0.14108053125603626
+    },
+    "best_tab": [
+      "tabular (burn-in applied)",
+      0.5646059588410985,
+      0.583094662362865
+    ],
+    "audit": null
+  },
+  "full": {
+    "tag": "full",
+    "head": "tabular (burn-in applied)",
+    "ap_val": 0.5857301215481953,
+    "ap_test": 0.7018958207221689,
+    "precision": 0.7985401459854015,
+    "recall": 0.6087924318308292,
+    "f1": 0.6908746447737434,
+    "gnn_gain": null,
+    "best_tab": [
+      "tabular (burn-in applied)",
+      0.5857301215481953,
+      0.7018958207221689
+    ],
+    "audit": [
+      0.011293431109299082,
+      0.02016909215100726
+    ]
+  }
+}
